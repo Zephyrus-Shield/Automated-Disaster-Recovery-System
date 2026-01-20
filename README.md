@@ -1,5 +1,7 @@
 # Automated-Disaster-Recovery-System
+
 Automated Disaster Recovery System: A Bash and Python–based backup verification system designed to eliminate unreliable manual backups. Bash manages safe, repeatable backup operations, while Python verifies data integrity using SHA256 checksums. Fully automated, idempotent, and verifiable for reliable disaster recovery.
+
 Problem Statement: Manual backups are unreliable. A missed or corrupted backup during a disaster means data loss.
 
 Problem Interpretation: We need a system that is Automated (runs without humans), Idempotent (safe to run multiple times), and Verifiable (checks data integrity).
